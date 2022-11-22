@@ -2,13 +2,13 @@
 STATUS: Incomplete
 
 ## Compilation Information
-_Compiler_: `gcc-g++ ver 7.4+` via Cygwin\
-_Compilation Flags_: `-std=c99 -Wall -pedatic`
+__Compiler__: `gcc-g++ ver 7.4+` [via Cygwin](https://cygwin.com/packages/summary/gcc-g++.html)\
+__Compilation Flags__: `-std=c99 -Wall -pedatic`
 
 ## Book Information
-_Title_: C Programming: A Modern Approach, Second Edition\
-_Author_: K.N. King\
-_ISBN_: 978-0-393-97950-3
+__Title__: C Programming: A Modern Approach, Second Edition\
+__Author__: K.N. King\
+__ISBN__: 978-0-393-97950-3
 
 ## Table of Contents
 
