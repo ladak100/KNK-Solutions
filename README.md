@@ -1,12 +1,14 @@
-# Solutions to _C Programming: A Modern Approach - 2nd Edition_ 
+# Solutions to _"C Programming: A Modern Approach - 2nd Edition"_ 
 STATUS: Incomplete
 
-## 
+## Compilation Information
+_Compiler_: `gcc-g++ ver 7.4+` via Cygwin\
+_Compilation Flags_: `-std=c99 -Wall -pedatic`
 
 ## Book Information
-Title: C Programming: A Modern Approach, Second Edition
-Author: K.N. King
-ISBN: 978-0-393-97950-3
+_Title_: C Programming: A Modern Approach, Second Edition\
+_Author_: K.N. King\
+_ISBN_: 978-0-393-97950-3
 
 ## Table of Contents
 
