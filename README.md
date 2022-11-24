@@ -1,9 +1,9 @@
-# Solutions to _"C Programming: A Modern Approach - 2nd Edition"_ 
+# Solutions to _"C Programming: A Modern Approach - 2nd Edition"_
 STATUS: Incomplete
 
 ## Compilation Information
-__Compiler__: `gcc-g++ ver 7.4+` [via Cygwin](https://cygwin.com/packages/summary/gcc-g++.html)\
-__Compilation Flags__: `-std=c99 -Wall -pedatic`
+__Compiler__: `gcc-g++ ver 11.3+` [via Cygwin](https://cygwin.com/packages/summary/gcc-g++.html)\
+__Compilation Flags__: `-Wall -pedantic -std=c99`
 
 ## Book Information
 __Title__: C Programming: A Modern Approach, Second Edition\
@@ -14,7 +14,7 @@ __ISBN__: 978-0-393-97950-3
 
 ### Basic Features of C
 * Chapter 1: Introducing C
-* Chapter 2: C Fundamentals 
+* Chapter 2: C Fundamentals
 * Chapter 3: Formatted Input/Output
 * Chapter 4: Expressions
 * Chapter 5: Selection Statements

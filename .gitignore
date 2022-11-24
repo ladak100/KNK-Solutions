@@ -3,3 +3,6 @@
 
 # Executables
 *.exe
+
+# Test files
+test.c
