@@ -12,7 +12,7 @@
 > }
 > ```
 > Do you get a warning message from the compiler? If so, what's needed to make it go away?
-### Solution
+#### Solution
 The program compiles and runs with no errors. When running with `-std=c99`, no warnings are present. When running with `-std=c89`, the compiler produces the following warning:
 ```
 warning: control reaches end of non-void function [-Wreturn-type]
@@ -31,7 +31,7 @@ warning: control reaches end of non-void function [-Wreturn-type]
 >     return 0;
 > }
 > ```
-> (a) Identify the directives and statements in this program.
+> (a) Identify the directives and statements in this program.\
 > (b) What output does the program produce?
 #### Solution
 ##### (a)
@@ -58,3 +58,39 @@ available for its completion.
 ### 02.03
 > Condense the `dweight.c` program by (1) replacing the assignments to `height`, `length`, and `width` with initializers and (2) removing the `weight` variable, instead calculating `(volume + 165) / 166` within the last `printf`.
 #### Solution
+See [02_03.c](02_03.c)
+
+### 02.04
+> Write a program that declares several `int` and `float` variables--without initializing them--and then prints their values. Is there any pattern to the values? (Usually there isn't.)
+#### Solution
+See [02_04.c](02_04.c)\
+Output:
+```
+Ints: 0 1 0
+Floats: -nan 0.000000 -nan
+```
+There do appear to be oscillations in both `int` and `float` values.
+
+### 02.05
+> Which of the following are not legal C identifiers?\
+> (a) `100_bottles`\
+> (b) `_100_bottles`\
+> (c) `one_hundred_bottles`\
+> (d) `bottles_by_the_hundred`\
+#### Solution
+(a) is the only illegal identifier. Identifiers in C can only begin with numbers or underscores.
+
+### 02.06
+> Why is it not a good idea for an identifier to contain more than one adjacent underscore (as in `current___balance`, for example)?
+#### Solution
+Although legal, multiple adjacent underscores are difficult to count and should be avoided when naming identifiers.
+
+### 02.07
+> Which of the following are keywords in C?
+> (a) `for`
+> (b) `If`
+> (c) `main`
+> (d) `printf`
+> (e) `while`
+#### Solution
+(a) and (e) are keywords in C. For (b), `If` is not a keyword in C, but `if` is. Although (c) and (d) have significance, they can be used to name identifiers and are therefore not keywords.
