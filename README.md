@@ -1,5 +1,6 @@
 # Solutions to _"C Programming: A Modern Approach - 2nd Edition"_
-STATUS: Incomplete
+Solutions in the earlier chapters will not be elegant. I'm using only what's been covered up to that point in the textbook.\
+__STATUS: Working on Ch03 [11/25/2022]__
 
 ## Compilation Information
 __Compiler__: `gcc-g++ ver 11.3+` [via Cygwin](https://cygwin.com/packages/summary/gcc-g++.html)\
