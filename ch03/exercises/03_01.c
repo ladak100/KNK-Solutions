@@ -6,4 +6,6 @@ int main(void)
   printf("\n.%12.5e.", 30.253);
   printf("\n.%.4f.", 83.162);
   printf("\n.%-6.2g.", .0000009979);
+
+  return 0;
 }

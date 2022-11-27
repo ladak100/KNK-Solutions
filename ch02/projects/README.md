@@ -54,10 +54,10 @@ See [02_06.c](02_06.c)
 ### 02_07
 > Write a program that asks the user to enter a U.S. dollar amount and then shows how to pay that amount using the smallest number of $20, $10, $5 and $1 bills:\
 > ```
-> Enter a dollar amount: 93\
-> $20 bills: 4\
-> $10 bills: 1\
->  $5 bills: 0\
+> Enter a dollar amount: 93
+> $20 bills: 4
+> $10 bills: 1
+>  $5 bills: 0
 >  $1 bills: 3
 > ```
 > *Hint*: Divide the amount by 20 to determine the number of $20 bills needed, and then reduce the amount by the total value of the $20 bills. Repeat for the other bill sizes. Be sure to use integer values throughout, not floating-point numbers.
@@ -67,11 +67,11 @@ See [02_07.c](02_07.c)
 ### 02_08
 > Write a program that calculates the remaining balance on a loan after the first, second, and third monthly payments:
 > ```
-> Enter amount of loan: 20000.00\
-> Enter interest rate: 6.0\
-> Enter monthly payment: 386.66\
-> Balance remaining after first payment: $19713.34\
-> Balance remaining after second payment: $19425.25\
+> Enter amount of loan: 20000.00
+> Enter interest rate: 6.0
+> Enter monthly payment: 386.66
+> Balance remaining after first payment: $19713.34
+> Balance remaining after second payment: $19425.25
 > Balance remaining after third payment: $19135.71
 > ```
 > Display each balance with two digits after the decimal point. *Hint*: Each month, the balance is decreased by the amount of the payment, but increased by the balance times the monthly interest rate. To find the monthly interest rate, convert the interest rate entered by the user to a percentage and divide it by 12.

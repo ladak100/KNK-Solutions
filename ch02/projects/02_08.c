@@ -17,4 +17,6 @@ int main(void)
   printf("\nBalance remaining after second payment: $%.2f",bal);
   bal = (bal - pay_mo) + (bal * int_yr / 100.0f / 12.0f);
   printf("\nBalance remaining after third payment: $%.2f",bal);
+
+  return 0;
 }

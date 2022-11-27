@@ -16,4 +16,6 @@ int main(void)
   printf("$10 Bills: %d\n",num10);
   printf("$ 5 Bills: %d\n",num5);
   printf("$ 1 Bills: %d\n",num1);
+
+  return 0;
 }
