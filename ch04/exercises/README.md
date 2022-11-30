@@ -82,4 +82,123 @@ The first method always yields a single-digit check digit. However, if the resul
 ### 04_08
 > Would the `upc.c` program still work if the expression `9 - ((total - 1) % 10)` were replaced by `(10 - (total % 10)) % 10`?
 #### Solution
-Yes, this modification of Method 2 from the previous exercise prevents a two-digit check digit.
+Yes, this modification of Method 2 from the previous exercise prevents a two-digit check digit. Both yield the same results.
+
+### 04_09
+> Show the output produced by the following program fragments. Assume that `i`, `j`, and `k` are `int` variables.
+> ```
+> (a) i = 7; j = 8;
+>     i *= j + 1;
+>     printf("%d %d", i, j);
+> (b) i = j = k = 1;
+>     i += j += k;
+>     printf("%d %d %d", i, j, k);
+> (c) i = 1; j = 2; k = 3;
+>     i -= j -= k;
+>     printf("%d %d %d", i, j, k);
+> (d) i = 2; j = 1; k = 0;
+>     i *= j *= k;
+>     printf("%d %d %d", i, j, k);
+> ```
+#### Solution
+(a) `63 8`\
+(b) `3 2 1`\
+(c) `2 -1 3`\
+(d) `0 0 0`
+
+### 04_10
+> Show the output produced by each of the following program fragments. Assume that `i` and `j` are `int` variables.
+> ```
+> (a) i = 6;
+>     j = i += i;
+>     printf("%d %d", i, j);
+> (b) i = 5;
+>     j = (i -= 2) + 1;
+>     printf("%d %d", i, j);
+> (c) i = 7;
+>     j = 6 + (i = 2.5);
+>     printf("%d %d", i, j);
+> (d) i = 2; j = 8;
+>     j = (i = 6) + (j = 3);
+>     printf("%d %d", i, j);
+> ```
+#### Solution
+(a) `12 12`\
+(b) `3 4`\
+(c) `2 8`\
+(d) `6 9`
+
+### 04_11
+> Show the output produced by each of the following program fragments. Assume that `i`, `j`, and `k` are `int` variables.
+> ```
+> (a) i = 1;
+>     printf("%d ", i++ - 1);
+>     printf("%d", i);
+> (b) i = 10; j = 5;
+>     printf("%d ", i++ - ++j);
+>     printf("%d %d", i, j);
+> (c) i = 7; j = 8;
+>     printf("%d ", i++ - --j);
+>     printf("%d %d", i, j);
+> (d) i = 3; j = 4; k = 5;
+>     printf("%d ", i++ - j++ + --k);
+>     printf("%d %d %d", i, j, k);
+> ```
+#### Solution
+(a) `0 2`\
+(b) `4 11 6`\
+(c) `0 8 7`\
+(d) `3 4 5 4`
+
+### 04_12
+> Show the output produced by each of the following program fragments. Assume that `i` and `j` are `int` variables.
+> ```
+> (a) i = 5;
+>     j = ++i * 3 - 2;
+>     printf("%d %d", i, j);
+> (b) i = 5;
+>     j = 3 - 2 * i++;
+>     printf("%d %d", i, j);
+> (c) i = 7;
+>     j = 3 * i-- + 2;
+>     printf("%d %d", i, j);
+> (d) i = 7;
+>     j = 3 + --i * 2;
+>     printf("%d %d", i, j);
+> ```
+#### Solution
+(a) `6 16`\
+(b) `6 -7`\
+(c) `6 23`\
+(d) `6 15`
+
+### 04_13
+> Only one of the expressions `++i` and `i++` is exactly the same as `(i += 1)`; which is it? Justify your answer.
+#### Solution
+`++i` is exactly the same as `(i += 1)`, since both expressions return the incremented value of `i` as they are read.
+
+### 04_14
+> Supply parentheses to show how a C compiler would interpret each of the following expressions.
+> ```
+> (a) a * b - c * d + e
+> (b) a / b % c / d
+> (c) - a - b + c - + d
+> (d) a * - b / c - d
+> ```
+#### Solution
+(a) `((a * b) - (c * d)) + e`\
+(b) `((a / b) % c) / d`\
+(c) `(((- a) - b) + c) - (+ d)`\
+(d) `((a * (- b)) / c) - d`
+
+### 04_15
+> Give the values of `i` and `j` after each of the following expression statements has been executed. (Assume that `i` has the value 1 initially and `j` has the value 2.)
+> (a) `i += j;`
+> (b) `i--;`
+> (c) `i * j / i;`
+> (d) `i % ++j;`
+#### Solution
+(a) `i = 3, j = 2`\
+(b) `i = 0, j = 2`\
+(c) `i = 1, j = 2`\
+(d) `i = 1, j = 3`
