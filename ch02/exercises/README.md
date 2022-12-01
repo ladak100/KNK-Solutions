@@ -58,12 +58,12 @@ available for its completion.
 ### 02_03
 > Condense the `dweight.c` program by (1) replacing the assignments to `height`, `length`, and `width` with initializers and (2) removing the `weight` variable, instead calculating `(volume + 165) / 166` within the last `printf`.
 #### Solution
-See [02_03.c](02_03.c)
+See [`02_03.c`](02_03.c)
 
 ### 02_04
 > Write a program that declares several `int` and `float` variables--without initializing them--and then prints their values. Is there any pattern to the values? (Usually there isn't.)
 #### Solution
-See [02_04.c](02_04.c)\
+See [`02_04.c`](02_04.c)\
 Output:
 ```
 Ints: 0 1 0

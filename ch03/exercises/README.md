@@ -8,7 +8,7 @@
 > (c) `printf("%.4f", 83.162);`\
 > (d) `printf("%-6.2g", .0000009979);`
 #### Solution
-See [03_01.c](03_01.c)\
+See [`03_01.c`](03_01.c)\
 Blankspace represented by `•`\
 (a) `••••86,1040`\
 (b) `•3.02530e+01`\
@@ -74,5 +74,5 @@ Blankspace represented by `•`\
 ### 03_06
 Show how to modify the `addfrac.c` program of Section 3.2 so that the user is allowed to enter fractions that contain spaces before and after each `/` character.
 #### Solution
-See [03_06.c](03_06.c)\
+See [`03_06.c`](03_06.c)\
 Add a space before each `/` in the `scanf` calls. Spaces don't need to be added anywhere else since `scanf` already allows any number of whitespaces before the numeric conversion specifiers covered so far.
