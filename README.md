@@ -1,5 +1,5 @@
 # Solutions to _"C Programming: A Modern Approach - 2nd Edition"_
-__STATUS: Working on Ch04 [11/27/2022]__
+__STATUS: Working on Ch05 [11/30/2022]__
 
 Solutions in the earlier chapters will not be elegant - I only use features that have been covered prior to the question.
 
